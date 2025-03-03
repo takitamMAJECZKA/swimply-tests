@@ -1,7 +1,5 @@
 
 import { Link } from "react-router-dom"
-import AddNewWorkout from "../components/AddNewWorkout"
-import Workout from "../components/Workout"
 
 
 export default function Home(){
@@ -11,8 +9,6 @@ export default function Home(){
         <Link to="/login">Login</Link><br />
         <Link to="/stats">Stats</Link><br />
         <Link to="/account">Account</Link>
-        <AddNewWorkout />
-        <Workout />
     </div>
     )
 }
